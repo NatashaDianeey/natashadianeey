@@ -1,0 +1,54 @@
+/*¡Listo!*/
+.caja1{
+	width:160px;
+	height:160px;
+	margin:20px;
+	display: block;
+	background: gray;
+
+}
+/*¡Listo caja rectangular!*/
+.caja2{
+	width:620px;
+	height:200px;
+	margin:20px 20px;
+	background: gray;
+	display: block;
+
+}
+
+.adentro{
+	width:160px;
+	height:160px;
+	margin:20px;
+	background: yellow;
+	display: inline-block;
+
+}
+
+
+
+.caja6{
+	width:160px;
+	height:160px;
+	margin:20px;
+	background: gray;
+	display: inline-block;
+}
+
+.caja7{
+	width:160px;
+	height:160px;
+	margin:20px;
+	background: gray;
+	display: inline-block;
+}
+
+/*¡Listo!*/
+.caja8{
+	width:160px;
+	height:160px;
+	margin:20px;
+	background: gray;
+	display: block;
+}

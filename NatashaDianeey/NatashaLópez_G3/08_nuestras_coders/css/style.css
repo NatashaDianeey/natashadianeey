@@ -1,0 +1,58 @@
+.linea{
+  background-color: black;
+  height: 6px;
+  width: 10%;
+}
+
+.Foto1{
+	position: absolute;
+	top: 130px;
+}
+
+
+.Foto2{
+	position: absolute;
+	top: 130px;
+	left: 250px;
+
+}
+
+.Foto3{
+	position: absolute;
+	top: 130px;
+	left: 500px;
+}
+
+.Foto4{
+	position: absolute;
+	top: 350px;
+}
+
+.Foto5{
+	position: absolute;
+	top: 350px;
+	left: 250px;
+	
+}
+
+.Foto6{
+	position: absolute;
+	top: 350px;
+	left: 500px;
+}
+
+
+.Foto11{
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	font-family: Inconsolata;
+	bottom: 10px;
+	left: 120px;
+
+}
+
+*{
+	font-family:Inconsolata ;
+}
+

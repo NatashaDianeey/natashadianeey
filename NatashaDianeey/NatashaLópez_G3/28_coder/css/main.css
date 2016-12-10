@@ -1,0 +1,178 @@
+/* Tu CSS va aqui */
+h1, h2, h3, h4, h5{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 5%;
+}
+/* HEADER */
+
+#bkgr-img-header{
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:100%;
+	height:600px;
+}
+
+.text-white{
+	color: white;
+}
+.mi-portaf{
+	margin-left: 8%;
+}
+/* navegador */
+nav.navbar{	/*navegrador transp*/
+	background-color: transparent;
+	border: transparent;
+}
+li a{
+	color: white !important;
+}
+/* encabezado*/
+.jumbotron{
+	background-color: transparent;
+	color: white
+}
+
+/* texto y boton */
+hr{
+	width: 6%;
+	text-align: center;
+	margin-top: 2%;
+}
+.hr-ora{
+	border:2px solid #F03C18;
+}
+.button {
+	color:#fff;
+	text-align:center;
+	font-size: 1em;
+	padding:1% 2%;
+	width:12%;
+	border: none;
+	border-radius: 25px;
+	box-shadow:0px 3px 0px #373c3c;
+	cursor:pointer;
+}
+.button-oran{
+	background-color: #F03C18;
+	margin-left: 45%;
+}
+
+/* texto y boton */
+.bkg-orange{
+	background-color: #F03C18;
+	width: 100%;
+}
+.hr-white{
+	border:2px solid white;
+	margin-bottom: 5%;
+}
+
+.glyphicon{
+	font-size: 6em;
+	color:#F03C18;
+
+}
+/*SECTION 3*/
+.icon1{
+	padding-left: 14%;
+}
+.icon2{
+	padding-right: 14%;
+}
+.img-uno{
+	width: 33.33%;
+	height: 300%;
+	padding: 0% !important;
+}
+
+.bkg-black{
+	background-color: #000;
+	margin-left: -2%;
+	margin-right: 2%;
+	width: 103%;
+	height: 160px;
+	padding:2%;
+}
+.button-white{
+	background-color: white;
+	color:black;
+	margin-left: 45%;
+}
+
+/*SECTION 3*/
+.backg-img{
+	width:33.3%;
+	height:300px;
+	padding: 0% !important;
+}
+.img1{
+	background-image: url("../img/1.jpg");
+}
+.img2{
+	background-image: url("../img/2.jpg");
+}
+.img3{
+	background-image: url("../img/3.jpg");
+}
+.img4{
+	background-image: url("../img/4.jpg");
+}
+.img5{
+	background-image: url("../img/5.jpg");
+}
+.img6{
+	background-image: url("../img/6.jpg");
+}
+
+div.trans-ora{
+	width:100%;
+	height: 300px;
+	background-color: rgba(240, 125, 60, 0.7);
+	opacity: 0;
+}
+.text-top{
+	padding-top: 5%
+}
+.text-tam{
+	margin-top: 30%;
+}
+
+div.img1:hover div.trans-ora, 
+div.img2:hover div.trans-ora, 
+div.img3:hover div.trans-ora, 
+div.img4:hover div.trans-ora, 
+div.img5:hover div.trans-ora, 
+div.img6:hover div.trans-ora{
+	opacity: 1;
+}
+
+h5{
+	display: inline;
+	font-size: 2em;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px){
+	.img{
+		width: 100%;
+	}
+	.button{
+		width: 30%}
+	.button-oran{
+	margin-left: 35%;
+	}	
+	.button-white{
+	margin-left: 35%
+	}
+	.icon1{
+		padding:0%;
+	}
+	.icon2{
+		padding:0%;
+	}
+}

@@ -1,0 +1,146 @@
+/* Inserta tu codigo aqui */
+
+*{
+	font-family: 'Libre Franklin', Arial, sans-serif;
+
+}
+
+/* HEADER */
+
+header{
+	background-color: #333333;
+}
+
+ul{
+
+	text-align:right;
+}
+.menu{
+	font-family: Arial;
+	color: white;
+	display: inline;
+	float: left;
+	padding: 8% 1%;
+}
+
+.logo{
+	width: 100px;
+	height: 110px;
+	margin: 10px 0px; }
+
+
+/* ARTICLE */
+
+
+		/* seccion1 */
+.seccion1{
+	height: 350px;
+	background-color: #e6e6e6;
+	
+}
+
+
+
+h3{	margin: 20px 10px 0px;
+	display: inline-block;
+}
+div>a{
+	color: #369;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+	
+}
+
+.grande{
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	border: 3px solid gray;
+	padding: 5px;
+
+
+}
+
+.chica{
+	width: 120px;
+	height: 120px;
+	border: 1px solid gray;
+	padding: 3px;
+	display: inline;
+	margin: 20px 0px;
+}
+
+li{
+	display:block; 
+	text-align: left;
+
+}
+
+
+/*! ASIDE*/
+
+
+
+.iconos{
+	width:15px;
+	height:15px;
+	margin-right: 10px;
+
+}
+
+hr{
+	margin: 15px 0px 25px 0px;
+}
+
+aside p{
+	text-align: left;
+	font-size: 12px;
+	color: blue;
+	text-decoration: 
+}
+
+
+
+article>p{
+	color: black;
+	text-align: center;
+}
+
+
+/*! FOOTER*/
+
+
+footer{
+	height: 200px;
+	background-color:#4d4d4d;
+}
+
+p{
+	font-weight: 400;
+	font-size: 16px;
+	color: blue;
+	text-align: center
+}
+
+footer p{
+	text-align: center;
+}
+
+.read{
+	margin: 10px 0px;
+	font-size: 17px;
+	color: #f2f2f2;
+	text-align:left;
+}
+
+.abaut{
+	font-size: 16px;
+	color: #cccccc;
+}
+
+.creditos{
+	font-size: 15px;
+	color: #bfbfbf;
+}
+

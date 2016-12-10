@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      	<title>Bootstrap: Grid System</title>
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Questrial" rel="stylesheet">
+      	<link rel="stylesheet" href="css/bootstrap.min.css">
+      	<link rel="stylesheet" href="css/main.css">
+          <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+          <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+          <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+          <![endif]-->	
+    </head>
+    <body>
+      	<!-- Inserta tu código aqui -->
+        <header><!-- HEADER encabezado, iconos, buscador y menu, -->
+            <div class="container-fluid">
+                <div class="row"><!--MENU XS-movil / MD-desktop -->
+                    <div class="col-xs-6 col-sm-6 col-lg-6">
+                        <img class="img-responsive logo" src="img/logotipo.png" alt="LOGOTIPO">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-lg-3">
+                                <h5><a href="#"><span class="glyphicon glyphicon-home header"></span>Noticias</a></h5>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-lg-3">
+                                <h5><a href="#"><span class="glyphicon glyphicon-home header"></span>Enlaces</a></h5>
+                            </div>
+                            <div class="hidden-xs hidden-sm hidden-md col-lg-6">
+                                <input type="text" placeholder="Buscar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">   <!-- NAV -->
+                    <div class="col-xs-12">
+                        <nav class="bkg-blue-nav navbar navbar-inverse">
+                            <div class="navbar-header">
+                                <button type="button" class="bkg-purp-header navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"> <a href="https://www.google.com.mx/">Inicio</a></li>
+                                    <li> <a href="#">Sobre mí</a></li>
+                                    <li> <a href="#">Portafolio</a></li>
+                                    <li> <a href="#">Servicios</a></li>
+                                    <li> <a href="#">Novedades</a></li>
+                                    <li> <a href="#">Clientes</a></li>
+                                    <li> <a href="#">Contácto</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div> 
+            </div>  
+        </header>
+        <article>
+            <section><!-- SECTION 1 TRES COLUMNAS PARA DESK, TAB y MOVIL-->
+                <div class="container">
+                    <div class="row">
+                        <!-- PRIMERA COLUMNA texto-->  
+                        <!-- COL 6 DESK, COL8 TAB, COL 12 MOVIL-->
+                        <div class="col-xs-12 col-sm-8 col-lg-6"><!--IMAGEN XS-movil / MD-desktop -->
+                            <!-- Caja de texto 1 -->
+                            <h2 class="caja-color">Bienvenidos</h2>
+                            <h4>Artículo |<small> publicado el 22/08/16</small></h4>
+                            <h3>Natasha Dianeey López Olivera</h3>
+                            <p class="text-justify">Hola y bienvenido a mi página web. Mi nombre es Natasha Dianeey, soy Diseñadora gráfica y me especializo en el area de multimedia y audiovisual, enfoncandome en el área de diseño web. Amo cada paso en la concepción de mi trabajo, desde el proceso creativo, hasta la finalización del mismo.</p>
+                            <div class="row">
+                                <div class="col-xs-4 col-md-4">
+                                    <p><a href="#"><span  class="glyphicon glyphicon-heart"></span>Ver más...</a></p>
+                                </div>
+                                <div class="col-xs-8 col-md-8">
+                                    <p><a href="#"><span class="glyphicon glyphicon-ice-lolly"></span>Etiquetas: <u>lorem</u> <u>ipsum</u> <u>digigat</u></a></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- Caja de texto 2 -->
+                            <div class="row">
+                                <div class="col-xs-3 col-md-3">
+                                    <p class="caja-color-black text-center"><a href="#">Webzone</a></p>
+                                </div>
+                                <div class="col-xs-3 col-md-3">
+                                    <p><u>Preguntas</u> |</p>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <p><small> publicado el 05/10/15</small></p>
+                                </div>
+                            </div>
+                            <h3>Sobre mí</h3>
+                            <p  class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis atque, iure eligendi illo quam expedita vero ipsum similique, esse ratione debitis aperiam provident excepturi rerum saepe, praesentium maiores asperiores totam.</p>
+                            <div class="row">
+                                <div class="col-xs-4 col-md-4">
+                                    <p><a href="#"><span  class="glyphicon glyphicon-heart"></span>Ver más...</a></p>
+                                </div>
+                                <div class="col-xs-8 col-md-8">
+                                    <p><a href="#"><span class="glyphicon glyphicon-ice-lolly"></span>Etiquetas: <u>lorem</u> <u>ipsum</u> <u>digigat</u></a></p>
+                                </div>
+                            </div>
+                            <hr>
+                             <!-- Caja de imagen con texto 3 -->
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <img class="img-tamaño" src="img/image4.jpg" alt="FOTO"/>
+                            <br>
+                            <br>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis atque, iure eligendi illo quam expedita vero ipsum similique, esse ratione debitis aperiam provident excepturi rerum saepe, praesentium maiores asperiores totam.</p>
+                            <div class="row">
+                                <div class="col-xs-4 col-md-4">
+                                    <p><a href="#"><span  class="glyphicon glyphicon-heart"></span>Ver más...</a></p>
+                                </div>
+                                <div class="col-xs-8 col-md-8">
+                                    <p><a href="#"><span class="glyphicon glyphicon-ice-lolly"></span>Etiquetas: <u>lorem</u> <u>ipsum</u> <u>digigat</u></a></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- Caja de texto 4 -->
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p  class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis atque, iure eligendi illo quam expedita vero ipsum similique, esse ratione debitis aperiam provident excepturi rerum saepe, praesentium maiores asperiores totam.</p>
+                            <div class="row">
+                                <div class="col-xs-4 col-md-4">
+                                    <p><a href="#"><span  class="glyphicon glyphicon-heart"></span>Ver más...</a></p>
+                                </div>
+                                <div class="col-xs-8 col-md-8">
+                                    <p><a href="#"><span class="glyphicon glyphicon-ice-lolly"></span>Etiquetas: <u>lorem</u> <u>ipsum</u> <u>digigat</u></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- SEGUNDA COLUMNA video etc-->
+                        <!-- COL 3 DESK, COL8 TAB, COL 12 MOVIL-->
+                        <div class="col-xs-12 col-sm-4 col-lg-4">
+                            <!-- Caja background, video y texto -->
+                            <div class="box-back-video">
+                                <h2 class="caja-color">Intereses</h2>
+                                <iframe src="https://player.vimeo.com/video/14903744"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                <p><a href="https://vimeo.com/14903744">La Oreja de Van Gogh - Jueves</a></p>
+                                <h3>Lorem ipsum dolor sit amet</h3>
+                                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis atque, iure eligendi illo quam expedita vero ipsum similique, esse ratione debitis aperiam provident excepturi rerum saepe, praesentium maiores asperiores totam.</p>
+                                <div class="row">
+                                    <div class="col-xs-7 col-sm-7 col-md-7">
+                                        <p> publicado el 05/10/15</p>
+                                    </div>
+                                    <div class="col-xs-5 col-sm-5 col-md-5">
+                                         <p><a href="#"><span  class="glyphicon glyphicon-heart"></span>Ver más...</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Segunda seccion de la segunda columna -->
+                            <h2 class="caja-color">Agenda</h2>
+                            <!-- primer renglon de fotos y texto-->
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                    <span class="text-encima">Dany</span>
+                                    <img class="img-peque" src="img/dany.png" alt="DANY"/>
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8">
+                                    <h4>Daniela Beltran Bedolla</h4>
+                                    <p class="text-justify">Lorem ipsum dolor sit amet, conse adipisicing elit dolor sit amet sit elitss</p>
+                                    <p><small> cumpleaños 12/11/1994</small></p>
+                                </div>
+                            </div>
+                            <!-- segundo renglon de fotos y texto-->
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                    <span class="text-encima">Pank</span>
+                                    <img class="img-peque" src="img/panke.png" alt="EDITH"/>
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8">
+                                    <h4>Karla Edith Beristain</h4>
+                                    <p class="text-justify">Lorem ipsum dolor sit amet, conse adipisicing elit dolor sit amet sit elitss</p>
+                                    <p><small> cumpleaños 17/12/1995</small></p>
+                                </div>
+                            </div>
+                            <!-- tercer renglon de fotos y texto-->
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                    <span class="text-encima">Omar</span>
+                                    <img class="img-peque" src="img/omar.png" alt="OMAR"/>
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8">
+                                    <h4>Edgar Omar Baldamis</h4>
+                                    <p class="text-justify">Lorem ipsum dolor sit amet, conse adipisicing elit dolor sit amet sit elitss</p>
+                                    <p><small> cumpleaños 05/10/15</small></p>
+                                </div>
+                            </div>
+                            <!-- cuarto renglon de fotos y texto-->
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4">
+                                    <span class="text-encima">Uli</span>
+                                    <img class="img-peque" src="img/ULISES.png" alt="ULISES"/>
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8">
+                                    <h4>Ulises Alonso Morales</h4>
+                                    <p class="text-justify">Lorem ipsum dolor sit amet, conse adipisicing elit dolor sit amet sit elitss</p>
+                                    <p><small> cumpleaños 11/10/1995</small></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <h2>Clientes</h2>
+                                    <h4><small><u>Localidades</u></small></h4>
+                                    <h3>Lorem ipsum dolor sit amet</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <h4><small><u>Localidades</u></small></h4>
+                                    <h3>Lorem ipsum dolor sit amet</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TERCERA COLUMNA /ASIDE\ video etc-->
+                        <!-- COL 2 DESK--> <!-- DESAPARECE EN TABLET Y MOVIL-->
+                        <aside>
+                            <div class="hidden-xs hidden-sm hidden-md col-lg-2">
+                                <!-- Caja de texto en lista -->
+                                <h3>Más Información</h3>
+                                <ul>
+                                    <li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>Finanzas</a></li>
+                                    <li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>Finanzas</a></li>
+                                    <li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>Finanzas</a></li>
+                                    <li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>Finanzas</a></li>
+                                    <li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>Finanzas</a></li>
+                                    <li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>Finanzas</a></li>
+                                    <li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>Finanzas</a></li>
+                                </ul>
+                                <div class="box-back-video">
+                                    <h3>MAGAZINE</h3>
+                                    <p><b>ECODEFI</b></p>
+                                    <p>ENQUETE</p>
+                                    <p class="text-justify">Lorem ipsumjn dolor sitj amesnst, consectetur adipisicing hfbds jdsj la elit Reiciasgfhdfsdla.</p>
+                                    <p>PREGUNTAS</p>
+                                    <p class="text-justify">Lorem ipsumjn dolor sitj amesnst, consectetur adipisicing hfbds jdsj la elit Reiciasgfhdfsdla.</p>
+                                </div> 
+                                <div class="box-back-video">
+                                    <h3>MAGAZINE</h3>
+                                    <p><b>ACCIONES COMUNES</b></p>
+                                    <p>ENQUETE</p>
+                                    <p class="text-justify">Lorem ipsumjn dolor sitj amesnst, consectetur adipisicing hfbds jdsj la elit Reiciasgfhdfsdla.</p>
+                                    <p>PREGUNTAS</p>
+                                    <p class="text-justify">Lorem ipsumjn dolor sitj amesnst, consectetur adipisicing hfbds jdsj la elit Reiciasgfhdfsdla.</p>
+                                </div> 
+                                <div class="box-back-video">
+                                    <p class="text-justify">Nueva generación de la Internet</p>
+                                </div>             
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+        </article> 
+        <footer><!-- FOOTER -->
+            <div class="container">
+                <div class="row barrita">
+                    <div class="col-xs-6 col-sm-3 col-lg-2">
+                        <ul>
+                            <h5><strong>Rubros</strong></h5>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Actualidades</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>En directo</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Reporte</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Nuestra Oferta</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>De Nosotros</a></li>
+                        </ul>
+                    </div>
+                    <div class="hidden-xs hidden-sm hidden-md col-lg-3">
+                        <ul>
+                            <h5><strong>Expertise</strong></h5>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Finanzas y fiscalización</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Investigación y equipos</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Medio Ambiente</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Habitat/Urbanismo</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Sanidad</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Social/Servicios</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Transporte</a></li>
+                        </ul>
+                    </div>
+                     <div class="col-xs-6 col-sm-3 col-lg-2">
+                        <ul>
+                             <h5><strong>Suscripción</strong></h5>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Todo el flujo</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Flujo RSS</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Noticias</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix visible-xs-block"></div>
+                    <div class="col-xs-6 col-sm-3 col-lg-3">
+                        <ul>
+                            <h5><strong>Nosotros</strong></h5>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>¿Quienes somos?</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Plan del sitio</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Información legal</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-lg-2">
+                        <ul>
+                            <h5><strong>Contácto</strong></h5>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Contáctanos</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>FAQ</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-ice-lolly-tasted"></span>Haga sus preguntas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    	<!-- Incluir todos tus scripts apartir de este punto -->
+        <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

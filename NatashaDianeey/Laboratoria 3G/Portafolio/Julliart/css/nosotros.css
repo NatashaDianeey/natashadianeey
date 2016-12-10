@@ -1,0 +1,57 @@
+/*seccion 1*/
+.fondo {
+	background-image: url("../img/dance_7.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.borde{
+	background: rgba(0, 0, 0, .5);
+	width: 40%;
+	height: 5%;
+	margin: 10% 30%;
+}
+
+.justific-text{
+	padding-top: 4%;
+	text-align:center;
+	font-weight: normal;
+}
+
+.parraf-marg{
+	padding:4% 5% 7% 5%;
+	text-align:center;
+}
+.encabezado{
+	margin-top: 70px;
+	margin-bottom: 50px
+}
+/*seccion 2*/
+.background-image-gris{
+	background-image: url("../img/tile2.png");
+	background-repeat: repeat;
+	width: 100%;
+	height: 100%;
+}
+.margen-caja{
+	padding: 4%;
+}
+/*.margen-caja1{
+	padding: 5% 0% 7% 14%;
+}
+
+.margen-caja2{
+	padding: 5%;
+}
+
+.margen-caja3{
+	padding: 5% 14% 7% 0%;
+}*/
+
+hr{
+	background-color: gray;
+  	height: 3px;
+	margin: 7%
+}

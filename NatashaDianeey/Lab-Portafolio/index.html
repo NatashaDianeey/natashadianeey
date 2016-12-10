@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>parallax example</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="letter" id="l1"><h2>F</h2></div>
+        <div class="letter" id="l2"><h2>F</h2></div>
+        <div class="letter" id="l3"><h2>F</h2></div>
+        <div class="letter" id="l4"><h2>F</h2></div>
+        <div class="letter" id="l5"><h2>F</h2></div>
+        <div class="letter" id="l6"><h2>F</h2></div>
+        <div class="letter" id="l7"><h2>F</h2></div>
+        <div class="letter" id="l8"><h2>F</h2></div>
+        <div class="letter" id="l9"><h2>F</h2></div>
+        <div class="letter" id="l10"><h2>F</h2></div>
+
+        <div class="extender"></div>
+
+        <script type="text/javascript">
+            function parallax(){
+            var scrolled = $(window).scrollTop();
+            $('#l1').css('transform', "translateX(" + (scrolled * 0.1) + "px)");
+                $('#l2').css('transform', "translateX(" + (scrolled * 0.2) + "px)");
+            $('#l3').css('transform', "translateX(" + (scrolled * 0.3) + "px)");
+            $('#l4').css('transform', "translateX(" + (scrolled * 0.4) + "px)");
+            $('#l5').css('transform', "translateX(" + (scrolled * 0.5) + "px)");
+                $('#l6').css('transform', "translateX(" + (scrolled * -0.6) + "px)");
+            $('#l7').css('transform', "translateX(" + (scrolled * -0.5) + "px)");
+            $('#l8').css('transform', "translateX(" + (scrolled * -0.4) + "px)");
+            $('#l9').css('transform', "translateX(" + (scrolled * -0.3) + "px)");
+                $('#l10').css('transform', "translateX(" + (scrolled * -0.2) + "px)");
+        }
+
+        $(window).scroll(function() {
+            parallax();
+        });
+
+        </script>
+    </body>
+</html>

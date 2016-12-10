@@ -1,0 +1,21 @@
+div{
+	background: #ADD8E6;
+
+	width:600px;
+	height: 300px solid #F08080;
+	border-top: 30px solid #F08080;
+	border-right: 15px solid #F08080;
+	border-bottom: 30px solid #F08080;
+	border-left: 15px solid #F08080;
+	margin:120px 60px 30.5px 60px;
+	padding: 40px 20px 40px 20px;
+	border-radius: 10px;
+}
+
+p{
+	
+	background: white;
+	padding: 40px 20px 70px 100px;
+	border:dashed green;
+	border-radius: 5px;
+}

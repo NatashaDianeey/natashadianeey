@@ -1,0 +1,74 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.boxshapes {
+  width: 100%;
+  height: 150%;
+}
+
+.allletters {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.letter {
+  font-size: 8em;
+  position: absolute;
+  top: 1400px;
+}
+
+#l1 {
+  left: 150px;
+  top: 1475px;
+}
+
+#l2 {
+  left: 300px;
+  top: 1550px;
+}
+
+#l3 {
+  left: 600px;
+  top: 1320px;
+}
+
+#l4 {
+  left: 850px;
+  top: 1475px;
+}
+
+#l5 {
+  left: 1000px;
+  top: 1500px;
+}
+
+#l6 {
+  left: 1150px;
+}
+
+#l7 {
+  left: 1300px;
+}
+
+#l8 {
+  left: 1450px;
+}
+
+#l9 {
+  left: 1600px;
+}
+
+#l10 {
+  left: 1750px;
+}
+
+.extender {
+  height: 7000px;
+}

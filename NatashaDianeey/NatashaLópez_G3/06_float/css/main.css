@@ -1,0 +1,31 @@
+.papa{
+	width:900px;
+	height:650px;
+	margin:20px 20px;
+	border:2px solid blue;
+	font-size: 50px;
+	background-color: green; 
+
+}
+
+.hijo{
+	width:600px;
+	height:160px;
+	margin: 20px;
+	background-color: yellow;
+
+}
+
+.clearfix{
+	overflow: auto;
+	zoom:1;
+}
+
+div:not(>.inline){
+	margin-right: 
+
+}
+
+.floating{
+	float: right;
+}

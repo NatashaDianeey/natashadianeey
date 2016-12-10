@@ -1,0 +1,169 @@
+/* Ingresa tu css aqui */
+
+
+#logo{
+	float: center;
+	margin: 30px;
+}
+
+li{
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	margin: 20px;
+	padding: 20px;
+}
+
+hr{
+	height: 0.1em;
+	width: 25px;
+	background-color: gray;
+}
+
+p{
+	text-align: center;
+	font-size: 30px;
+	padding: 80px;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	text-align: left;
+	font-size: 30px;
+}
+
+.fotogrupal{
+	width: 905px;
+	height:637px;
+}
+
+.lineamenu{
+	border:1px;
+	width: 60px;
+	margin: auto;
+
+}
+/*!NUESTRAS CODERS!*/
+
+.gruesa{
+	background-color: black;
+	height: 8px;
+	width: 10%;
+	
+}
+
+
+.Foto1{
+	position: absolute;
+	top: 110px;
+	left: 100px;
+}
+
+
+.Foto2{
+	position: absolute;
+	top: 110px;
+	left: 350px;
+
+}
+
+.Foto3{
+	position: absolute;
+	top: 110px;
+	left: 600px;
+}
+
+.Foto4{
+	position: absolute;
+	top: 350px;
+	left: 100px;
+}
+
+.Foto5{
+	position: absolute;
+	top: 350px;
+	left: 350px;
+	
+}
+
+.Foto6{
+	position: absolute;
+	top: 350px;
+	left: 600px;
+}
+
+
+.Foto11{
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	font-family: Arial;
+	bottom: 10px;
+	left: 120px;
+
+}
+
+
+
+
+
+/*!SEGUNDA PAGINA WEB!*/
+.borde{
+	width:960px; 
+	height:1300px;
+	border: 2px solid black;
+}
+
+.circulo{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	position: relative;
+	top: 10px;
+	left: 350px;
+}
+
+/*!BARRAS!*/
+
+.barra1{
+	width: 600px;
+	height: 10px;
+	background-color: gray;
+}
+
+.barra2{
+	width: 400px;
+	height: 10px;
+	background-color: gray;
+}
+
+.barra3{
+	width: 200px;
+	height: 10px;
+	background-color: gray;
+}
+
+
+.bloque{
+	display: inline-block;
+	margin:20px; 
+	padding:20px;
+}
+
+/*!GALERIA!*/
+.foto{
+	display: inline;
+	width: 220px;
+	height: 150px;
+	margin: 10px;
+	padding: 25px;
+}

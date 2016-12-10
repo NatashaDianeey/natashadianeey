@@ -1,0 +1,99 @@
+/* header */
+h1{
+	margin-top: 50px;
+}
+li{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	margin: 2% 4%;
+}
+span{
+	color: #000000;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-nav {
+  margin: 2px;
+}
+/*seccion6*/
+.zapatillas{
+	width: 70%;
+	height: 70%;
+}
+.form{
+ 	padding: 60px 0px 70px 120px;
+}
+
+/* Button´s */
+.btn {
+	font-size: 1.3em;
+	padding: 1%;
+	border: none;
+	cursor:pointer;
+ 	background-color: #202060;
+	color: #ffffff;
+}
+.btn:hover,
+.btn:focus {
+  color:#000314;
+  text-decoration: none;
+}
+.btn-2{
+  width:11%;
+	margin: 3% 0% 0% 11%;
+}
+.btn-3{
+  width:17%;
+  padding: 1% 2%;
+	margin:0% 0% 5% 42.5%;
+}
+
+
+
+
+	/*formulario*/
+.fondo-zapatillas{
+	background-image: url('../img/shoes_1.jpg');
+	background-repeat: no-repeat;
+	background-position: right top;
+    width: 100% !important;
+    height: 500px !important;
+    
+}
+input, textarea{
+    background-color: transparent;
+}
+input:hover{
+    background-color: #fff;
+}
+textarea:hover{
+    background-color: #fff;
+}
+.cuadro-form{
+	width: 50%;
+  	height: 50px;
+}
+.cuadro-form-mens{
+	width: 50%;
+	height: 150px;
+}
+.btn-5{
+    background-color: #202060;
+	width: 50%;
+    margin-bottom: 4%;
+}
+.text-blue{
+    margin:2% 1%;
+}
+/*footer*/
+.fondo-azul2{
+	background-color: #202060;
+	width:100%;
+}
+.pie-pag{
+	padding: 3%;
+}

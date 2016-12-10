@@ -1,0 +1,35 @@
+h4{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 2.5em;
+	margin-left: -5%;
+}
+.cuadro{
+	width: 50%;
+	height: 600px;
+	border: solid 10px #4d4545;
+	border-radius: 10%;
+	color: #989898;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+}
+label{
+	margin-left: 7%;	
+}
+input{
+	margin-left: 7%;
+	margin-top: 1%;
+}
+textarea{
+	margin-left: 7%;
+}
+.botazu{
+	background: #28c5e6;
+	color: white;
+	width:15%;
+}
+.flotar{
+	display: inline-block;
+	float: left;
+}

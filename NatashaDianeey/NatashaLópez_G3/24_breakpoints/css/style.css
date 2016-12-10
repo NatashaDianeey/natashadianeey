@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+}
+@media (max-width: 600px) {
+}
+
+body {
+    background: #99ff66 ;
+}
+@media (max-width: 600px) {
+    body {
+        background:  #ffff66  ;
+    }
+}
+
+h1{
+	color:blue;
+}

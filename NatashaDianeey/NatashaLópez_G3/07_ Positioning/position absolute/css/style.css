@@ -1,0 +1,46 @@
+
+.caja1{
+	background-color: #1affb2;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	
+/*! Left, right, bottom, top. se utiliza para block e inline y se puede manejar por porcentajes ao pixeles!*/
+}
+
+.caja2{
+	background-color: #ffb3da;
+	top: 0px;
+	right:0px;
+	position: absolute;
+
+}
+
+.caja3{
+	background-color: #80ffff;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+.caja4{
+	background-color: #ffff99;
+	bottom: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+*{	height: 200px;
+	width: 200px;
+	font-family: Verdana;
+	font-size: 30px;
+	color: white;
+	}
+	
+
+body{
+	
+	margin: 0px;
+	padding: 0px;
+}
+

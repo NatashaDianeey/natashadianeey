@@ -1,0 +1,247 @@
+/* head */
+*{
+	font-family: Arial;}
+
+
+/* Pimera seccion */
+
+.logo{
+	padding: 0px 110px;
+}
+
+.buscador{
+	width: 350px;
+	height:55px ;
+	color: #93999E;
+	padding: 10px;
+
+	border-color: #93999E ;
+	border-style: solid;
+	border-radius: 2%;
+	margin:10px 60px;
+
+}
+
+.vector-buscador{
+margin-left: 100px;
+
+}
+
+.big{
+	width: 200px;
+	height: 100px;}
+
+.icono{
+	width: 100px;
+	height: 100px;
+	margin-top: 400px;
+
+	
+}
+
+
+.gris{
+	background-color: #383838;
+	width: 700px ;
+	height:700px ;
+}
+
+
+.text-gris{
+	color: #93999E;
+	font-size: 20px;
+}
+
+.negro{
+	padding: 35px 0px 0px;
+	font-size: 15px;
+	color: #93999E;
+}
+
+p{
+	font-size: 22px;
+	color: white;
+	}
+
+h1{
+	color: white;
+	font-size: 50px;
+	font-family: Arial;
+	padding: 15px 0px;
+	margin: 15px 0px;
+}
+
+.banner{
+	width: 1800px;
+	height: 800px;
+	margin: 14px 0px 0px;
+}
+
+
+
+.margen{
+	margin-left: 220px;
+}
+
+.button-yellow {
+	background:	#ffbf00;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px 0px;
+	padding:10px 0;
+	text-align:center;
+	width:250px;
+	border-radius: 10px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+}
+
+.button-orange {
+	background:#ff8000;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:20px 0px;
+	padding:10px 0;
+	text-align:center;
+	width:250px;
+	border-radius: 10px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+}
+
+
+
+/* Segunda seccion */
+
+.fondo{
+	background-color: #ffbf00;
+	height: 450px;
+}
+
+.img{
+
+	width: 320px ;
+	height: 449px;
+	padding: 40px;
+	display: inline;
+	margin: 0px -20px;
+}
+
+/* Cuarta seccion */
+
+h3{
+	color: #93999E;
+	font-size: 30px;
+	margin: 20px 20px 0px;
+	padding: 10px 20px;
+}
+
+h2{
+	font-size: 60px;
+	padding: 0px 20px;
+	margin: 20px 20px 0px;
+}
+
+.text-brown{
+	color: #bf8040;
+	font-size: 20px;
+	margin: 0px 40px;}
+
+.button-brown{
+	background:#bf8040;
+	color:#fff;
+	display:inline-block;
+	font-size:20px;
+	margin:20px 40px;
+	padding:40px 10px;
+	text-align:center;
+	width:250px;
+	height: 100px;
+	border-radius: 10px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+}
+
+
+.text-gris2{
+	color: black;
+	margin: 0px 40px;
+}
+.text-gris1{
+	color: #93999E;
+	font-size: 20px;
+	margin: 0px 40px;
+}
+
+.col-6 hr{
+	margin: 40px;
+}
+
+
+
+/* Quinta seccion */
+
+.img2{
+	width: 500px;
+	height: 600px;
+	padding: 60px;
+	margin: -15px 30px;
+}
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+.green{ 
+	color:#00ff00;
+	text-align: center;
+	padding: 10px;
+	border-color: #00ff00 ;
+	border-style: solid;
+	border-radius: 10%;
+	margin: 2px;
+}
+
+
+
+
+	
+
+
+
+
+
+
+footer{
+	background-color: #d9d9d9;
+}
+
+
+.text-gris-chico p,h4{
+	color: #93999E;
+	font-size: 20px;
+	
+	margin: 40px 40px;
+}
+
+
+
+
+
+

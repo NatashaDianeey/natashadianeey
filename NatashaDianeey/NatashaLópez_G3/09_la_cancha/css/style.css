@@ -1,0 +1,60 @@
+#rectangulo{	
+	width: 1100px;
+	height: 400px;
+	background-color: #00cc00;
+	border: 2px solid #00cc00;
+	margin:0px 0px 0px 10px;
+	padding: 40px 20px 70px 100px;
+	position: absolute;
+}
+
+#cancha{
+	width: 1000px;
+	height: 300px;
+	border: 2px solid white;
+	margin: 0px;
+	padding: 60px 20px 70px 10px;
+	clear: both;
+}
+
+.caja{
+	border: 2px solid white;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	width: 120px;
+	height: 210px;
+}
+
+#centro{
+	border: 2px solid white;
+	border-radius: 50%;
+	position: absolute;
+	width: 10%;
+	height: 20%;
+	top: 210px;
+	left: 560px;
+}
+#porteria{
+	border: 2px solid white;
+	position: absolute;
+	top: 150px;
+	left: 1010px;
+	width: 120px;
+	height: 210px;
+}
+.pelota1{
+	position: absolute;
+	top: 150px;
+	left: 210px;
+}
+.pelota2{
+	position: absolute;
+	top: 90px;
+	left: 590px;
+}
+.pelota3{
+	position: absolute;
+	top: 340px;
+	left: 980px;
+}

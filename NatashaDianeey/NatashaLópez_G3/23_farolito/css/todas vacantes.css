@@ -1,0 +1,70 @@
+.margen-gnral-caja{
+	margin-top: 80px;
+	margin-bottom: 80px
+}
+
+h1{
+	color: #989898;
+}
+p{
+	text-align: left;
+	margin: 15px 10px;
+	color: #989898;
+}
+h3{
+	color: #66d9ff;
+	text-align: left;
+	margin: 0px 10px;
+}
+hr{
+	margin: 5px 10px;
+	border-color: #66d9ff; 
+}
+.a{
+	width: 150px;
+}
+.b{
+	width: 214px
+}
+.c{
+	width: 150px
+}
+.d{
+	width: 210px
+}
+.e{
+	width: 210px
+}
+
+h3.yellow{
+	color: #ffc200;
+}
+.raya-vert{
+	border-right: dashed 3px #989898;
+	margin: 5px 0px;
+}
+.raya{
+	border-bottom: dashed 3px #989898;
+	margin: 40px 0px;
+}
+.button{
+	background-color: #fff;
+	border-radius: 25px;
+	padding: 1%;	
+	text-align: center;
+}
+.ver{
+	width: 100px;
+	height: 35px;
+	color: #ff6a49;
+	border:solid #ff6a49 1px;
+	float: right;
+}
+.edit{
+	width: 130px;
+	height: 40px;
+	border: solid #989898 1px;
+	color: #989898;
+	float: left;
+	margin-top: 10px;
+}

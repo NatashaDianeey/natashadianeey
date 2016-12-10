@@ -1,0 +1,97 @@
+/*seccion 1*/
+.fondo {
+	background-image: url("../img/dance_1.jpg");
+    background-repeat: no-repeat;
+	width:100%;
+	height: 500px;
+}
+
+h2 {
+  font-size: 4em;
+  margin: 6% 0% 0% 11%;
+}
+
+.marg-p{
+  margin: 2% 0% 0% 11%;
+	padding-top: 1%;
+}
+
+/*seccion 2*/
+.bckg-img-gray{
+	background-image: url("../img/textura_2.jpg");
+	width: 100%;
+	height: 100%;
+    margin-top: -1.1%;
+}
+
+h3{
+    font-size: 2.8em;
+}
+.marg-h3{
+	margin: 4% 0% 0% 0%;
+}
+
+.ornmto1{
+	width: 15%;
+	height: 15%;
+  	margin: -2% 43%;
+}
+
+/*seccion 3*/
+#marg-blue{
+  	border: 4px solid #202060;
+}
+.col-md-6{
+	padding: 0%;
+}
+#img-ballet-1{
+	background-image: url('../img/instructor_4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width:  100% !important;
+	height: 500px !important;
+}
+
+.col-sm-6{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+#img-ballet-2{
+	background-image: url('../img/profesor_9.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:  center;
+    width: 100% !important;
+    height: 500px !important;
+}
+.btn-4{
+  margin: -7% 0% 0% 30%;
+	border-radius: 0px;
+	width:40%;
+	height: 70px;
+}
+
+/*seccion 5*/
+.frase-2{
+	padding:7% 0%;
+}
+
+/*seccion 5*/
+.fondo-azul1{
+	background-color: #202060;
+	width: 100%;
+	height: 100%;
+}
+.mapa{
+	width: 60%;
+	height: 300px ;
+	margin: 10% 15%;
+}
+.visit{
+	margin: 5% 0% 0% 15%;
+	text-align: left;
+}
+.mgn{
+  margin-top: 15%;
+}
